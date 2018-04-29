@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nba", "Nba\Nba.csproj", "{FCEAB0C9-9C73-4F25-A288-23F6CFE7C870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCEAB0C9-9C73-4F25-A288-23F6CFE7C870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEAB0C9-9C73-4F25-A288-23F6CFE7C870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEAB0C9-9C73-4F25-A288-23F6CFE7C870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEAB0C9-9C73-4F25-A288-23F6CFE7C870}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C4D2183-3869-4923-953B-408E0BB59FAF}
+	EndGlobalSection
+EndGlobal
