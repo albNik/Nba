@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestCsvReader.cs" />
+    <Compile Include="TestDistance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

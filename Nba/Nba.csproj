@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="CsvParserException.cs" />
     <Compile Include="CsvReader.cs" />
+    <Compile Include="Entities\Distance.cs" />
     <Compile Include="Entities\Leader.cs" />
     <Compile Include="Entities\Player.cs" />
     <Compile Include="Entities\Report.cs" />
