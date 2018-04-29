@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CsvParserException.cs" />
+    <Compile Include="CsvReader.cs" />
+    <Compile Include="Entities\Leader.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\Report.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
