@@ -22,7 +22,7 @@ namespace Nba.Entities
       }
 
 
-      public static Distance FromFeet(string s)
+      public static Distance FromFeet(string s) // 6 ft 5 in
       {
          var parts = s.Split(' ');
 
@@ -30,13 +30,10 @@ namespace Nba.Entities
          {
             int feet = 0;
             int inches = 0;
-            if(int.TryParse(parts[0], out feet) && int.TryParse(parts[2], out inches))
+            if(parts[1] == "ft" && parts[3] == "in" && int.TryParse(parts[0], out feet) && int.TryParse(parts[2], out inches))
                return new Distance(feet, inches);
          }
-
-
          throw new ArgumentException("format exception", s);
-
       }
 
       public double ToCm()
